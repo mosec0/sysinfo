@@ -12,15 +12,14 @@ The script gathers and displays the following information:
 - Kernel Version
 - Architecture
 - Current Username
-- Total Physical Memory
 - System Uptime
 
 ## Usage
 
-1. Save the script in a file (e.g., `system_info.sh`).
+1. Save the script in a file (e.g., `sysinfo.sh`).
 2. Make the script executable by running:
     ```bash
-    chmod +x system_info.sh
+    chmod +x sysinfo.sh
     ```
 3. Run the script:
     ```bash
@@ -41,18 +40,16 @@ Operating System: Ubuntu 20.04.6 LTS
 Kernel Version: 5.4.0-70-generic
 Architecture: x86_64
 Username: user
-Total Physical Memory: 16G
 System Uptime: up 1 hour, 23 minutes
 ```
 
 ## Notes
 - The script relies on commands like `hostname`, `cat`, `lsb_release`, `uname`, `free`, and `uptime`. Make sure these utilities are available on your system.
-- The memory information is extracted using the `free` command and the `awk` tool to format the output.
 
-## how to used
-git clone https://github.com/mosec0/sysinfo.git
-chmode +x sysinfo.sh
- follow me for my website https://linktr.ee/mosec0
+ ## follow me for my Social Media 
+
+
+https://linktr.ee/mosec0
 
 
 
